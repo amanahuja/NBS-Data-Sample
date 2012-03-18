@@ -44,7 +44,7 @@ Save the dataframes for future use
 '''
 print "Saving data to hdf5."
 
-store = HDFStore('NBSData.h5')
+store = HDFStore(os.path.join(path, 'NBSData.h5'))
 store['master'] = masterdf
 store.close()
 
