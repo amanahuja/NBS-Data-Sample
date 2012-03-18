@@ -25,7 +25,12 @@ for filename in os.listdir(path):
     For each data file, load the data into a dataframe
     Then concat the file's data into a master dataframe
     '''
-    pass
+    print "Processing file: ", filename
+
+    filepath = os.path.join(path, filename)
+    filedata = read_csv(filepath)
+    
+    #Add to master dataframe
 
 
 #Now we have all the data in a one big dataframe
