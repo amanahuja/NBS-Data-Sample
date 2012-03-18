@@ -1,5 +1,6 @@
 # Data files
 *.csv
+*.h5
 
 # NBS provided description of data
 README.txt
