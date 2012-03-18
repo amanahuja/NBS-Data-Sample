@@ -18,11 +18,11 @@ from pandas import *
 
 #Retrieve dataframes from the hdf5 file
 store = HDFStore(os.path.join(path, 'NBSData.h5'))
-
+masterdf = store['master']
 '''
 Process the dataframes here
 '''
-pass
+print masterdf.shape
 
 #Save the dataframes back into hdf5 file. 
 
