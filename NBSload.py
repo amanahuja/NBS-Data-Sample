@@ -16,6 +16,7 @@ from pandas import *
 datadir = 'data'
 path = os.path.join(os.getcwd(), datadir)
 
+masterdf = DataFrame()
 #Loop through each file in the data directory
 for filename in os.listdir(path):
     #Ignore non-csv files, such as the readme.txt
@@ -31,6 +32,8 @@ for filename in os.listdir(path):
     filedata = read_csv(filepath)
     
     #Add to master dataframe
+    masterdf = concat([masterdf, filedata])
 
 
 #Now we have all the data in a one big dataframe
+masterdf.columns
