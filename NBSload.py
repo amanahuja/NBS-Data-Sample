@@ -37,3 +37,11 @@ for filename in os.listdir(path):
 
 #Now we have all the data in a one big dataframe
 masterdf.columns
+
+
+''' 
+Save the dataframes for future use
+'''
+store = HDFStore('NBSData.h5')
+store['master'] = masterdf
+store.close()
