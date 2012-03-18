@@ -7,7 +7,6 @@ Oh, right. Sorry. This repo is for my own benefit and for anybody at NBS who mig
 But it may be useful to note that the data, which I have and you probably don't, is stored in a subdirectory called 'data', in comma delimited csv files. There are 150 of these csv files in the sample data set. 
 
 ## Workflow
-- - - - - 
 
 The basic workflow is `Load` -> `Clean` -> `Do`
 ... with a little help from my `Functions`.
@@ -28,5 +27,4 @@ I may move some function here to keep things clean in the other files.
 
 
 ## Results
-- - - - - 
 I'll probably add some results documentation once I have something to show, or move the whole thing to IPython Notebooks, or something. 
