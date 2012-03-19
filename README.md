@@ -8,13 +8,13 @@ The basic workflow is `Load` -> `Clean` -> `Do`
 
 I'll comment gratuitously. 
 
-### 1. Load
+### 1. Load (NBSload.py)
 Convert the data from the format in which it was provided (a bunch of csv files) into something I want to work with ([Pandas](http://pandas.pydata.org/) dataframes). 
 
-### 2. Clean
+### 2. Clean (NBSclean.py)
 If I need to pre-process the data before having fun with it, I'll do it here. 
 
-### 3. Do
+### 3. Do (NBSdo.py)
 The fun stuff here. 
 
 ### F. Functions
