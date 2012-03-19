@@ -24,13 +24,12 @@ masterdf = store['master']
 Process and clean the dataframes
 '''
 #the good stuff
-basicdf = masterdf[['Artist.ID','Day', 'Facebook.fans.d', 'Facebook.fans.t', 'Last.fm.plays.d', 'Last.fm.plays.t',
-		    'MySpace.fans.d', 'MySpace.fans.t', 'MySpace.plays.d', 'MySpace.plays.t', 'Twitter.fans.d', 'Twitter.fans.t',
-		    'Twitter.statuses.d', 'Twitter.statuses.t', 'YouTube.fans.d', 'YouTube.fans.t', 'YouTube.plays.d', 'YouTube.plays.t',
-		    'iTunes.Album.Units.d', 'iTunes.Track.Units.d', 'MediaGuide.Radio.Spins.d', 'Pandora.fans.d', 'Pandora.fans.t',
-		    'Rdio.fans.d', 'Rdio.fans.t', 'Rdio.plays.d', 'Rdio.plays.t', 'SiteCatalyst.Visits.d', 'SoundCloud.fans.d',
-		    'SoundCloud.fans.t', 'SoundCloud.plays.d', 'SoundCloud.plays.t', 'Spotify.plays.d', 'Vevo.plays.d', 'Vevo.plays.t',
-		    'Wikipedia.views.d']]
+basicdf = masterdf[['Artist.ID','Day', 'Facebook.fans.d', 'Facebook.fans.t', 'Last.fm.plays.d', 'Last.fm.plays.t', 'MySpace.fans.d', 'MySpace.fans.t',
+	'MySpace.plays.d', 'MySpace.plays.t', 'Twitter.fans.d', 'Twitter.fans.t', 'Twitter.statuses.d', 'Twitter.statuses.t', 'YouTube.fans.d', 'YouTube.fans.t',
+	'YouTube.plays.d', 'YouTube.plays.t', 'Pandora.fans.d', 'Pandora.fans.t', 'Rdio.fans.d', 'Rdio.fans.t', 'Rdio.plays.d', 'Rdio.plays.t', 'SoundCloud.fans.d',
+	'SoundCloud.fans.t', 'SoundCloud.plays.d', 'SoundCloud.plays.t', 'iTunes.Album.Units.d', 'iTunes.Track.Units.d', 'Vevo.plays.d', 'Vevo.plays.t',
+	'SiteCatalyst.Visits.d', 'MediaGuide.Radio.Spins.d', 'Spotify.plays.d', 'Wikipedia.views.d']]
+
     
 
 #Create a multi Index
