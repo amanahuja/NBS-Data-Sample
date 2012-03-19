@@ -4,7 +4,7 @@ Fooling around with Sample Data from NBS
 ## Workflow
 
 The basic workflow is `Load` -> `Clean` -> `Do`
-... with a little help from my `Functions`.
+...with a little help from my `Functions`.
 
 I'll comment gratuitously. 
 

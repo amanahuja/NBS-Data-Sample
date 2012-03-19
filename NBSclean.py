@@ -44,8 +44,6 @@ idx_artist = basicdf['Artist.ID']
 idx = MultiIndex.from_tuples(zip(idx_time,idx_artist), 
                              names=['date', 'artist'])
 
-
-
 #Apply the Multi-index
 cols = basicdf.columns
 rawdata = basicdf.as_matrix()
