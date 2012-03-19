@@ -41,8 +41,8 @@ idx_time = basicdf.Day * SECONDS_PER_DAY
 idx_time = idx_time.apply(datetime.fromtimestamp)
 idx_artist = basicdf['Artist.ID'].apply(int)
 
-idx = MultiIndex.from_tuples(zip(idx_time,idx_artist), 
-                             names=['date', 'artist'])
+idx = MultiIndex.from_tuples(zip(idx_artist, idx_time), 
+                             names=['artist','date'])
 
 #Apply the Multi-index
 cols = basicdf.columns
