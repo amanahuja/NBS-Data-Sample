@@ -35,8 +35,9 @@ basicdf = masterdf[['Artist.ID','Day', 'DayOfWeek', 'Facebook.fans.d', 'Facebook
 
 #Create a multi Index
 from datetime import datetime
+SECONDS_PER_DAY = 86400
 
-idx_time = basicdf.Day * 86400
+idx_time = basicdf.Day * SECONDS_PER_DAY
 idx_time = idx_time.apply(datetime.fromtimestamp)
 idx_artist = basicdf['Artist.ID']
 
