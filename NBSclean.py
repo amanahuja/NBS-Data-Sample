@@ -24,7 +24,7 @@ masterdf = store['master']
 Process and clean the dataframes
 '''
 #the good stuff
-basicdf = masterdf[['Artist.ID','Day', 'DayOfWeek', 'Facebook.fans.d', 'Facebook.fans.t', 'Last.fm.plays.d', 'Last.fm.plays.t',
+basicdf = masterdf[['Artist.ID','Day', 'Facebook.fans.d', 'Facebook.fans.t', 'Last.fm.plays.d', 'Last.fm.plays.t',
 		    'MySpace.fans.d', 'MySpace.fans.t', 'MySpace.plays.d', 'MySpace.plays.t', 'Twitter.fans.d', 'Twitter.fans.t',
 		    'Twitter.statuses.d', 'Twitter.statuses.t', 'YouTube.fans.d', 'YouTube.fans.t', 'YouTube.plays.d', 'YouTube.plays.t',
 		    'iTunes.Album.Units.d', 'iTunes.Track.Units.d', 'MediaGuide.Radio.Spins.d', 'Pandora.fans.d', 'Pandora.fans.t',
